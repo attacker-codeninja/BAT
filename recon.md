@@ -3,10 +3,10 @@ recon method
 1st whatweb domain
 
 	`ww=$(whatweb $domain| grep "200 OK")` 
-	yeh commmand apne ko sirf whi output degi jo kaam ke hai
+yeh commmand apne ko sirf whi output degi jo kaam ke hai
 	`echo "$ww"`
 	`url=$(whatweb $domain |grep "200 OK"| awk '{print $1}')` 
-	isse apn voh url extract krenge jo working mai hai.
+isse apn voh url extract krenge jo working mai hai.
 	`echo "$url"`
 
 2nd go spider
